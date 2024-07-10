@@ -1,0 +1,91 @@
+.auth-banner {
+	height: 100vh;
+	/* background: #e5f8ff;*/
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-direction: column;
+	background-image: linear-gradient(135deg,#0d495f 1%, #00baff 80%);
+    height: 100%;
+    color:#fff;
+    border-radius:  0 10px 10px  0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.auth-banner h2{
+    margin: 30px 0;
+    font-size: 50px;
+    letter-spacing: 3px
+}
+.auth-banner p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.auth-form {
+	padding: 40px 20px;
+	height: 100vh;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.auth-form h2{
+	text-align: center;
+}
+.auth-bg h2 {
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 1px;
+}
+
+.auth-bg form {
+	width: 430px;
+	margin: 0 auto;
+}
+
+.calendar-icon {
+	position: absolute;
+	right: 9px;
+	top: 23px;
+	color: #6e7191;
+}
+
+.auth-bg .auth-input {
+	color: #6e7191;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.75px;
+	width: 100%;
+	border-radius: 16px;
+	background: #eff0f6;
+	height: 56px;
+	border: none;
+	padding: 6px 20px;
+}
+@media (max-width: 991px) {
+	.auth-bg form {
+		width: 80%;
+	}
+}
+
+@media (max-width: 767px) {
+	.auth-form {
+		height: auto;
+		gap: 80px;
+	}
+
+	.auth-form h2 {
+		font-size: 20px;
+	}
+
+	.auth-bg form {
+		width: 100%;
+	}
+}

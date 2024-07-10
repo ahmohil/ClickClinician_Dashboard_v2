@@ -1,0 +1,89 @@
+.default-select__control {
+	height: 100%;
+	min-height:46px !important;
+	border-radius: 10px !important;
+	border-color: #d9dbe9 !important;
+}
+
+.default-select__indicator-separator {
+	display: none;
+}
+
+.country-select-container {
+	width: 30%;
+}
+
+.selection .country-select-container {
+	width: 100%;
+}
+.selection .country-select-container .css-13cymwt-control,
+.selection .country-select-container .css-t3ipsp-control {
+	height: 66px;
+}
+
+.country-select__control {
+	border-radius: 10px !important;
+	background: #eff0f6 !important;
+	height: 56px;
+}
+
+.country-select__option {
+	cursor: pointer !important;
+}
+
+.country-select__option:hover,
+.country-select__option:focus,
+.country-select__option:active {
+	background: #296aac !important;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.timeSlot-select__placeholder {
+	font-size: 10px !important;
+}
+
+.country-select__option--is-selected {
+	background: #296aac !important;
+	color: #fff;
+}
+
+.custom-time-select .css-1jj59y3-MenuList2::-webkit-scrollbar {
+	width: 0px !important;
+}
+.custom-time-select .css-tr4s17-option {
+	background-color: #00a7e5 !important;
+	text-align: center;
+	border-radius: 2px;
+	padding: 0 10px;
+}
+
+.custom-time-select .css-10wo9uf-option,
+.custom-time-select .css-d7l1ni-option {
+	text-align: center;
+	z-index: 11111 !important;
+	padding: 0 10px;
+	font-size: 14px !important;
+}
+@media (max-width: 767px) {
+	.default-select__placeholder {
+		font-size: 12px;
+	}
+	.default-select__control {
+		min-height: 45px !important;
+	}
+	.css-1jj59y3-MenuList2 {
+		font-size: 12px !important;
+	}
+	.css-1dimb5e-singleValue {
+		font-size: 12px !important;
+	}
+	.css-1y7rh0y-MultiValueGeneric2 {
+		font-size: 12px !important;
+	}
+
+	.custom-time-select .css-10wo9uf-option,
+	.custom-time-select .css-d7l1ni-option {
+		padding: 8px 10px;
+	}
+}

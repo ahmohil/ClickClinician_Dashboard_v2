@@ -1,0 +1,55 @@
+.pro-user {
+	display: flex;
+	gap: 15px;
+}
+
+.pro-img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	position: relative;
+}
+
+.online {
+	height: 15px;
+	width: 15px;
+	border-radius: 30px;
+	background: #00cc67;
+	position: absolute;
+	bottom: 10px;
+	right: 5px;
+}
+
+.edit {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.edit-user-img {
+	height: 155px;
+	width: 155px;
+}
+
+.pro-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+	object-fit: cover;
+}
+
+.pro-details {
+	flex: 1;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.profile .rating img {
+	height: 22px;
+}
+
+.pro-stats {
+	display: flex;
+	align-items: center;
+}

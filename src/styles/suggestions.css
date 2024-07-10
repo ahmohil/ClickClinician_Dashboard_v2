@@ -1,0 +1,80 @@
+.onBoarding-suggestions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.onBoarding-suggestions .inner-suggestions-screen {
+	width: 660px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+}
+
+.inner-suggestions-screen .suggestions-heading {
+	color: var(--Grayscale-Off-Black, #14142b);
+	font-family: Poppins;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 121.212% */
+	letter-spacing: 1px;
+}
+
+.inner-suggestions-screen .form-input-suggestions {
+	width: 100%;
+	/* height: 64px; */
+}
+
+.inner-suggestions-screen .form-input-suggestions input,
+.form-input-suggestions textarea {
+	--size: 100%;
+	width: var(--size);
+	height: var(--size);
+	border-radius: 16px;
+	background: var(--Grayscale-Input, #eff0f6);
+	border: 1px solid var(--Grayscale-Off-White, #eff0f6);
+	padding: 0 16px;
+	color: var(--Grayscale-Off-Black, #14142b);
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.5px;
+}
+.form-input-suggestions textarea {
+	padding: 10px 15px;
+	height: 200px;
+}
+
+.inner-suggestions-screen .suggestions-btn {
+	border-radius: 24px;
+	background: var(--Secondary-Default, #00a7e5);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	color: var(--Grayscale-Off-white, #fcfcfc);
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.onBoarding-suggestions {
+		padding: 0 20px;
+	}
+
+	.inner-suggestions-screen .suggestions-heading {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.onBoarding-suggestions .inner-suggestions-screen {
+		width: 100%;
+	}
+}

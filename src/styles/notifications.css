@@ -1,0 +1,150 @@
+.notify-boxs {
+	min-width: 25rem;
+	position: absolute;
+	top: 58px;
+	inset: 0px 0px auto auto;
+	transform: translate(-119px, 58px);
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	z-index: 111;
+	border: 1px solid;
+}
+
+.notify-head {
+	background-color: white;
+	/* border-radius: 1px; */
+	border-bottom: 1px solid #424242;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.close-box {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 11;
+}
+
+.arrow-tri {
+	position: absolute;
+	right: 111px;
+	top: -15px;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #e0dfdfdf;
+}
+
+.notify-image {
+	width: 40px;
+	height: 40px;
+}
+.notify-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.dropdown.dots-modal .btn {
+	background-color: transparent;
+	color: #000;
+	border: none;
+}
+.dropdown.dots-modal .dropdown-toggle::after {
+	content: none !important;
+}
+
+.break-all {
+	word-break: break-all;
+}
+
+hr.br-1 {
+	border-color: #424242;
+	margin: 0;
+}
+
+.noti {
+	width: 48px;
+	height: 48px;
+	border-radius: 50px;
+	border: 1px solid #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.noti:hover {
+	background-color: #000;
+	color: white;
+}
+
+.notification-item.highlighted {
+	background-color: #e5f8ff; /* Highlighted background color */
+}
+
+.notification-number {
+	position: absolute;
+	top: -6px;
+	right: -3px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #00a7e5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	color: #ffff;
+	font-weight: 600;
+}
+
+.noti-main {
+	max-height: 300px;
+	min-height: 300px;
+	overflow-y: auto;
+}
+
+.noti-main::-webkit-scrollbar {
+	width: 4px;
+	border-radius: 2px;
+}
+
+.noti-main::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.noti-main::-webkit-scrollbar-thumb {
+	background: #e4e4f0;
+	border-radius: 2px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.notify-boxs {
+		min-width: 25rem !important;
+		width: 250px !important;
+		transform: translate(-10px, 58px) !important;
+	}
+	.offcanvas-start {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.noti {
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.offcanvas-start {
+		width: 100% !important;
+	}
+	.fs-md-handle {
+		font-size: 12px !important;
+	}
+	.add-slots {
+		padding: 8px 10px !important;
+	}
+}

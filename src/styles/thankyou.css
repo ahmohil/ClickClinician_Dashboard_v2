@@ -1,0 +1,114 @@
+.onBoarding-thankyou {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.onBoarding-thankyou .inner-thankyou-screen {
+	width: 660px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+}
+
+.inner-thankyou-screen .thankyou-heading {
+	color: var(--Grayscale-Off-Black, #14142b);
+	/* font-family: Source Pro; */
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px; /* 128% */
+	letter-spacing: 1px;
+}
+
+.thankyou-heading .primary-text {
+	color: var(--Primary-Text, #00a7e5) !important;
+}
+
+.inner-thankyou-screen .thank-you-btn {
+	border-radius: 24px;
+	background: var(--Secondary-Default, #00a7e5);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 24px;
+	color: var(--Grayscale-Off-white, #fcfcfc);
+	width: 100%;
+}
+
+.inner-thankyou-screen .thank-you-btn:hover {
+	background: var(--Secondary-Hover, #4aafd4);
+}
+.stats-circle {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+}
+.bg-circle1 {
+	background: #00abbc;
+}
+.bg-circle2 {
+	background: #007099;
+}
+.bg-circle3 {
+	background: #66d6ff;
+}
+.bg-circle4 {
+	background: #3c0594;
+}
+.bb-back {
+	background: #eff0f6;
+	width: 100%;
+	height: 1px;
+}
+.stats-circles img {
+	width: 100%;
+}
+.stats-card {
+	padding: 16px 12px;
+	border-radius: 12px;
+	border: 1px solid #eff0f6;
+	height: 100%;
+}
+.stats-table img {
+	width: 100%;
+}
+.stats-table thead tr th {
+	font-size: 14px;
+	font-weight: 600;
+	color: #6e7191;
+}
+.stats-table tbody tr {
+	border: none;
+}
+.stats-table tbody tr td {
+	color: #6e7191;
+	font-size: 14px;
+	text-align: center !important;
+	border: none;
+}
+.red-btns img {
+	width: 60px;
+	height: 30px;
+}
+
+/* dashboard state */
+@media screen and (max-width: 768px) {
+	.onBoarding-thankyou {
+		padding: 0 20px;
+	}
+
+	.onBoarding-thankyou .inner-thankyou-screen {
+		width: 100%;
+	}
+
+	.onBoarding-thankyou .thankyou-heading {
+		font-size: 24px;
+		line-height: 34px;
+	}
+}

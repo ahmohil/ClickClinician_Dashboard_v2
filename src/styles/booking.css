@@ -1,0 +1,110 @@
+.booking-tab-actions {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	width: 223px;
+}
+
+.booking-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	/* background-color: #fff; */
+	/* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+	margin: 8px 0; */
+}
+
+.booking-list {
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.slots-select-input .css-13cymwt-control,
+.slots-select-input .css-t3ipsp-control {
+	border: none;
+	border-radius: 5px !important;
+	box-sizing: border-box;
+	box-shadow: none !important;
+}
+
+.slots-select-input.custom-time-input .css-13cymwt-control,
+.slots-select-input.custom-time-input .css-t3ipsp-control {
+	border: 1px solid #ccc !important;
+}
+
+.slots-select-input.custom-time-input .custom-time-select .css-13cymwt-control,
+.slots-select-input.custom-time-input .custom-time-select .css-t3ipsp-control {
+	border: 1px solid #ccc !important;
+}
+
+.slots-select-input .css-art2ul-ValueContainer2 {
+	padding: 0px 0 0 8px !important;
+}
+.slots-select-input .css-w9q2zk-Input2 {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+.slots-select-input .css-1u9des2-indicatorSeparator {
+	display: none;
+}
+
+.slots-select-input .css-1xc3v61-indicatorContainer,
+.css-15lsz6c-indicatorContainer {
+	padding: 0px 10px 0px 0px !important;
+}
+
+.slots-select-input .css-b62m3t-container {
+	width: 125px;
+}
+.slots-select-input .custom-time-select .css-13cymwt-control,
+.slots-select-input .custom-time-select .css-t3ipsp-control {
+	border-radius: 12px !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.custom-time-select {
+	border-radius: 12px !important;
+}
+
+.timeSlot-select__indicators {
+	cursor: pointer;
+}
+.success-result-btn {
+	width: 100px;
+	border-radius: 54px;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.25px;
+	display: inline-flex;
+	padding: 12px 22px;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	color: #fcfcfc;
+	background: #00a7e5;
+	border: 1px solid #00a7e5;
+	height: 48px;
+	transition: all 0.3s ease-in-out;
+}
+
+/* elements-modal */
+.elements-modal .modal-header .btn-close {
+	position: absolute;
+	top: 14px;
+	right: 18px;
+}
+.element-img {
+	width: 100%;
+	height: 180px;
+}
+.element-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}

@@ -1,0 +1,104 @@
+.onBoarding-price {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+
+.inner-screen {
+	text-align: center;
+}
+
+.inner-screen .heading {
+	color: var(--Grayscale-Off-Black, #14142b);
+	font-family: Poppins;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 121.212% */
+	letter-spacing: 1px;
+}
+
+.inner-screen .onboarding-para {
+	color: var(--Grayscale-Off-Black, #14142b);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 38px; /* 190% */
+	letter-spacing: 0.75px;
+}
+
+.onBoarding-price .service-pill {
+	border-radius: 32px;
+	border: 2px solid var(--Secondary-Default, #00a7e5);
+	display: inline-flex;
+	height: 56px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: var(--Secondary-Default, var(--Split-Blue, #00a7e5));
+	font-family: Poppins;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 160% */
+	letter-spacing: 0.75px;
+	cursor: pointer;
+}
+
+.onBoarding-price .onboarding-btn {
+	border-radius: 24px;
+	background: var(--Secondary-Default, #00a7e5);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 150px;
+	color: var(--Grayscale-Off-white, #fcfcfc);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 22px; /* 169.231% */
+	letter-spacing: 0.25px;
+}
+
+.onBoarding-price .onboarding-btn:hover {
+	background: var(--Secondary-Hover, #4aafd4);
+}
+
+@media screen and (max-width: 768px) {
+	.onBoarding-price {
+		padding: 50px 20px;
+		height: auto;
+	}
+	.onBoarding-price .inner-screen {
+		width: 100%;
+	}
+	.onBoarding-price .onboarding-btn {
+		width: 100%;
+	}
+
+	.inner-screen .heading {
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 32px;
+		text-align: left;
+	}
+
+	.inner-screen .onboarding-para {
+		font-size: 16px;
+		line-height: 30px;
+		text-align: left;
+	}
+
+	.onBoarding-price .service-pill {
+		font-size: 12px;
+	}
+}
